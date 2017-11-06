@@ -1,4 +1,4 @@
-# Python：pyenv / virtualenv 使い方
+# Python：環境構築 pyenv / virtualenv
   
 [&lt;&lt;目次へ戻る](https://github.com/kenshin-itahana/docs-python/blob/master/README.md)
   
