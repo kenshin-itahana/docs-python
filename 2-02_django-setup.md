@@ -34,9 +34,9 @@ $ pyenv versions
   3.6.0/envs/Django_Test
   Django_Test
 
-# 現在(カレントディレクトリ)のPythonバージョン確認
+# 現在(カレントディレクトリ)のPythonバージョン確認
 $ python -V
-Python 3.6.0
+Python 2.7.9
 
 # 現在（カレントディレクトリ)のPythonバージョンを設定
 # 以下のコマンドでは、先程作成した仮想環境「Django_Test」のPython3.6.0を指定
