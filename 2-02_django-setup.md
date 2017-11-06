@@ -46,7 +46,7 @@ $ pyenv local Django_Test
 (Django_Test) $ python -V
 Python 3.6.0
 
-$ pyenv versions
+(Django_Test) $ pyenv versions
   system
   2.7.9
   3.6.0
@@ -54,11 +54,11 @@ $ pyenv versions
 * Django_Test (set by /Users/XXXXX/Django/.python-version)
 
 # Djangoインストール準備：pipのアップグレード
-$ pip install --upgrade pip
+(Django_Test) $ pip install --upgrade pip
 Requirement already up-to-date: pip in /Users/XXXXX/.pyenv/versions/3.6.0/envs/Django_Test/lib/python3.6/site-packages
 
 # Djangoインストール準備：setuptoolsアップグレード
-$ pip install --upgrade setuptools
+(Django_Test) $ pip install --upgrade setuptools
 Collecting setuptools
   Using cached setuptools-36.6.0-py2.py3-none-any.whl
 Installing collected packages: setuptools
@@ -68,7 +68,7 @@ Installing collected packages: setuptools
 Successfully installed setuptools-36.6.0
 
 # Djangoインストール
-$ pip install django
+(Django_Test) $ pip install django
 Collecting django
   Downloading Django-1.11.6-py2.py3-none-any.whl (6.9MB)
     100% |████████████████████████████████| 7.0MB 221kB/s
@@ -80,34 +80,34 @@ Successfully installed django-1.11.6 pytz-2017.3
 
 # インストール済みパッケージ一覧
 # （※カレントディレクトリの環境にインストールされているパッケージ一覧）
-$ pip freeze
+(Django_Test) $ pip freeze
 Django==1.11.6
 pytz==2017.3
 
-$ ll
+(Django_Test) $ ll
 total 8
 drwxr-xr-x  3  admin  102 11  1 11:12 .
 drwx------  8  admin  272 11  1 10:46 ..
 -rw-r--r--  1  admin   12 11  1 11:17 .python-version
 
 # Djangoプロジェクト作成
-$ django-admin.py startproject mysite
+(Django_Test) $ django-admin.py startproject mysite
 
-$ ll
+(Django_Test) $ ll
 total 8
 drwxr-xr-x  4  admin  136 11  1 11:21 .
 drwx------  8  admin  272 11  1 10:46 ..
 -rw-r--r--  1  admin   12 11  1 11:17 .python-version
 drwxr-xr-x  4  admin  136 11  1 11:21 mysite
 
-$ ll mysite/
+(Django_Test) $ ll mysite/
 total 8
 drwxr-xr-x  4  admin  136 11  1 11:21 .
 drwxr-xr-x  4  admin  136 11  1 11:21 ..
 -rwxr-xr-x  1  admin  804 11  1 11:21 manage.py
 drwxr-xr-x  6  admin  204 11  1 11:21 mysite
 
-$ tree mysite
+(Django_Test) $ tree mysite
 mysite
 ├── manage.py
 └── mysite
@@ -119,10 +119,10 @@ mysite
 1 directory, 5 files
 
 # プロジェクトのルートディレクトリへ移動
-$ cd mysite
+(Django_Test) $ cd mysite
   
 # 開発用サーバー起動
-$ python manage.py runserver
+(Django_Test) $ python manage.py runserver
 
 # ブラウザで http://127.0.0.1:8000/ => Welcome to Django が表示されていればOK
 
