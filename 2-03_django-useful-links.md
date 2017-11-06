@@ -1,4 +1,4 @@
-# Django：お役立ちリンク集
+# Django：お役立ちリンク集
   
 [&lt;&lt;目次へ戻る](https://github.com/kenshin-itahana/docs-python/blob/master/README.md)
   
