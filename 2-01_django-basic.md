@@ -19,13 +19,15 @@ http://wannabe-jellyfish.hatenablog.com/entry/2017/03/19/230958
   
   
 #### ■ディレクトリツリー
+```bash
 mysite				ルートディレクトリ（※ディレクトリ名の変更可）  
-├── manage.py		コマンドラインユーティリティ  
+├── manage.py		        コマンドラインユーティリティ  
 └── mysite			本プロジェクトのパッケージ名  
 　　　├── __init__.py		このファイルが保存されているディレクトリがPythonパッケージであることを定義している空ファイル  
-　　　├── settings.py	設定ファイル  
+　　　├── settings.py	        設定ファイル  
 　　　├── urls.py		URLディスパッチャー  
 　　　└── wsgi.py		プロジェクトをサーブするためのWSGI互換Webサーバーとのエントリーポイント  
+```
   
   
   
