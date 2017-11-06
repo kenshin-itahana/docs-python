@@ -14,3 +14,5 @@ Python：自前Wiki
     1.[Django：基礎](https://github.com/kenshin-itahana/docs-python/blob/master/2-01_django-basic.md)
 
     2.[Django：環境構築](https://github.com/kenshin-itahana/docs-python/blob/master/2-02_django-setup.md)
+
+    3.[Django：お役立ちリンク集](https://github.com/kenshin-itahana/docs-python/blob/master/2-03_django-useful-links.md)
