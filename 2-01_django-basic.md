@@ -76,8 +76,8 @@ Superuser created successfully.
 #### ■ビューのレスポンス
 ビューが返すレスポンスは以下の２パターンのみ。
 
-１．HttpResponse
-２．例外
+１．HttpResponse  
+２．例外  
   
   
   
