@@ -5,7 +5,7 @@
 - クローリング + スクレイピング に関する様々な機能が実装されているPython製フレームワーク。  
 - 主要な昨日はコンポーネントに分かれている。
 - 各コンポーネントに関連するクラスなどを作成してクローリング＆スクレイピング処理を実装していく。
-- いくつかの設定 + 簡潔な記述だけでスクレイピング処理が実装できる。
+- いくつかの設定 + 簡潔な記述だけでスクレイピング処理が実装できる。
 - Scrapy Cloud というクラウドサービスと連携でき、作成したクローラーをコマンド１つでデプロイ&実行できる。
 
 
@@ -14,11 +14,9 @@ WEBページのリンクを辿りながら保存する作業
 
 #### スクレイピング
 保存したページから特定の情報を抽出する作業
-  
-  
-    　
+  　
 #### Scrapy日本語ドキュメント
-Ver.1.2だけど
+Ver.1.2だけど  
 http://scrapy-ja.readthedocs.io/ja/latest/index.html
   
 
@@ -40,7 +38,7 @@ http://scrapy-ja.readthedocs.io/ja/latest/index.html
 
 ##### Scheduler
 - Engineからのリクエストを受け取り、キューイングとスケジューリングを担当
-- scrapy.Requestオブジェクト（urlとcallback関数を持つオブジェクト）を受け取ってキューに積み、Engineから要求があった時にキューを返す
+- scrapy.Requestオブジェクト（urlとcallback関数を持つオブジェクト）を受け取ってキューに積み、Engineから要求があった時にキューを返す
 
 
 ##### Downloader
@@ -57,7 +55,7 @@ http://scrapy-ja.readthedocs.io/ja/latest/index.html
 ##### Item Pipeline
 - スパイダーによって抽出されたアイテムの出力処理
 - データのクレジング、バリデーション
-- 永続化（JSON・File・DB・Mail）
+- 永続化（JSON・File・DB・Mail）
   
 
 
@@ -88,9 +86,9 @@ $ pip install scrapy
 ### ■Scrapy 使い方（概要）
 1. プロジェクト作成
 2. スパイダー(クローラー)生成
-3. items.py：抽出データを定義
+3. items.py：抽出データを定義
 4. スパイダー(クローラー)作成
-    - 巡回開始アドレスの指定
+    - 巡回開始アドレスの指定
     - 巡回条件の指定
     - データ抽出条件の指定
 5. pipelines.py：取り出したitemオブジェクトの処理。DB保存等の処理などはここで行う。
@@ -121,7 +119,7 @@ $ scrapy genspider -t crawl example example.com
   
 3. 自動生成されるファイルを編集
   
-以下のファイルをそれぞれ編集して処理を実装する。  
+以下のファイルをそれぞれ編集して処理を実装する。  
 
 [ 編集するファイル ]
 - items.py
