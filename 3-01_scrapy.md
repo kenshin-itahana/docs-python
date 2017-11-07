@@ -56,9 +56,9 @@ http://scrapy-ja.readthedocs.io/ja/latest/index.html
 - スパイダーによって抽出されたアイテムの出力処理
 - データのクレジング、バリデーション
 - 永続化（JSON・File・DB・Mail）
-  
-  
-  
+__  __
+__  __  
+__  __  
 ### データフロー
 　　※参照：Scrapyアーキテクチャの図  
 
