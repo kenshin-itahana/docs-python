@@ -57,8 +57,8 @@ http://scrapy-ja.readthedocs.io/ja/latest/index.html
 - データのクレジング、バリデーション
 - 永続化（JSON・File・DB・Mail）
   
-
-
+  
+  
 ### データフロー
 　　※参照：Scrapyアーキテクチャの図  
 
