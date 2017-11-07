@@ -81,8 +81,9 @@ http://scrapy-ja.readthedocs.io/ja/latest/index.html
 ```bash
 $ pip install scrapy
 ```
-  
-  
+　  
+　  
+　    
 ### ■Scrapy 使い方（概要）
 1. プロジェクト作成
 2. スパイダー(クローラー)生成
@@ -94,9 +95,9 @@ $ pip install scrapy
 5. pipelines.py：取り出したitemオブジェクトの処理。DB保存等の処理などはここで行う。
 6. settings.py：各種設定
 7. 実行：クローリング＆スクレイピング
-
-
-  
+　  
+　  
+　  
 ### ■Scrapy 使い方（手順）
 1. プロジェクト作成
 ```bash
@@ -158,19 +159,18 @@ $ scrapy crawl example
 # 　　FEED_EXPORT_ENCODING='utf-8'
 $ scrapy crawl example -o example.json
 ```
-  
-  
-
-### Scrapy 
+　  
+　  
+　  
 ### ■クローリング時の遵守事項
 - データの収集/公開は著作権法に十分に配慮して行う
 - robots.txtに記載されたアクセス制限を守る
 - APIが用意されている場合はそちらを利用する
 - サーバーへアクセスする間隔は最低でも1秒以上あけるようにする
 - 会員のみが閲覧できるページは利用規約を守る
-  
-
-  
+　  
+　  
+　  
 ### ■参考URL
 - [Pythonでスクレイピング - Scrapy入門最初の2歩目(Qiita)](https://qiita.com/ttomoaki/items/05d3dc104a695f939d63)
 - [Scrapy入門（１）(Qiita)](https://qiita.com/checkpoint/items/038b59b29df8e1e384a2)
