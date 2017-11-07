@@ -18,9 +18,9 @@ WEBページのリンクを辿りながら保存する作業
 #### Scrapy日本語ドキュメント
 Ver.1.2だけど  
 http://scrapy-ja.readthedocs.io/ja/latest/index.html
-  
-
-
+　  
+　  
+　  
 ### ■Architecture & Components
 ---
 
@@ -82,8 +82,7 @@ http://scrapy-ja.readthedocs.io/ja/latest/index.html
 $ pip install scrapy
 ```
 　  
-　  
-　    
+　  　    
 ### ■Scrapy 使い方（概要）
 1. プロジェクト作成
 2. スパイダー(クローラー)生成
