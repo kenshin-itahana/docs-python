@@ -21,5 +21,5 @@ Python：自前Wiki
 
     1.[Scrapy](https://github.com/kenshin-itahana/docs-python/blob/master/3-01_scrapy.md)
 
-    2.[WEBクローリング＆スクレイピング時の注意事項](https://github.com/kenshin-itahana/docs-python/blob/master/3-02_scraping_notes.md)
+    2.[WEBクローリング＆スクレイピング時の注意事項](https://github.com/kenshin-itahana/docs-python/blob/master/3-02_scraping_notes.md)
 
