@@ -95,7 +95,7 @@ Python 2.7.10
 ```bash
 # 隔離環境用のディレクトリを作成
 #（※必須作業：virtualenvはディレクトリ毎に環境を管理するのでこの作業は必須）
-$ mkdir pyenv_test
+$ mkdir pyenv_test && cd pyenv_test
 $ pwd
 /Users/XXXXX/work/pyenv_test
 
