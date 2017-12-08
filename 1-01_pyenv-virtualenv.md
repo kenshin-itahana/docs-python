@@ -73,6 +73,13 @@ $ pyenv install 3.6.3
 ```
 
   
+■pyenv：指定バージョンのPythonのアンインストール
+
+```bash
+$ pyenv uninstall 3.6.3
+```
+
+  
 ■pyenv：インストール済みPythonバージョン一覧
 
 ```bash
@@ -89,7 +96,7 @@ Python 2.7.10
 　
 　
 　
-### virtualenvによるPython仮想環境の作成
+### Python仮想環境：仮想環境の作成
 ---
 
 ```bash
@@ -112,6 +119,17 @@ pyenv_test $ pyenv local test
   system
   3.4.3
 * test (set by /Users/XXXXX/work/pyenv_test/.python-version)
+```
+
+
+
+
+### Python仮想環境：仮想環境の削除
+---
+
+```bash
+# 仮想環境の削除：仮想環境名を指定
+pyenv uninstall sandbox_3.6.3
 ```
 
 
